@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>contact</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Manrope:wght@200..800&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Sofia&display=swap');
+
+        .search.container input:hover {
+            padding: 12px;
+            border-radius: 4px;
+            color: blue;
+            font-size: 12px;
+
+        }
+
+
+
+        .navbar {
+            justify-items: center;
+            justify-content: space-between;
+            display: flex;
+            text-decoration: none;
+            align-items: center;
+        }
+
+        .link a {
+            margin-right: 25px;
+            text-decoration: none;
+            text-align: center;
+            font-family: "sofia";
+
+        }
+
+        .link {
+            text-align: center;
+            margin-left: 400px;
+        }
+
+        h1 {
+            font-family: "sofia";
+            text-align: center;
+            margin-top: 50px;
+        }
+
+        main {
+            background-color: rgb(85, 170, 170);
+            text-align: center;
+            margin-left: 530px;
+            margin-right: 530px;
+            margin-top: 80px;
+            margin-bottom: 150px;
+            padding: 25px;
+
+        }
+
+        .submit:hover {
+            background-color: rgb(114, 114, 114);
+        }
+
+        body {
+            background-color: rgb(255, 255, 255);
+        }
+
+        a:hover {
+            color: rgb(253, 160, 73);
+
+        }
+
+        button:hover {
+            background-color: rgba(61, 59, 59, 0.555);
+        }
+
+        input:hover {
+            border: solid rgb(2, 111, 255);
+        }
+    </style>
+</head>
+
+<body>
+    <header class="navbar">
+        <nav class="link">
+            <a href="accueil.html">Accueil</a>
+            <a href="produit.html">Produits</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+        <div class="search.container">
+            <input type="text" placeholder="Recherche">
+            <button>Recherche</button>
+        </div>
+
+    </header>
+    <h1>Contact</h1>
+
+    <main>
+
+        <label for="prenom"> Nom complet</label><br>
+        <input type="text" name=prenom id="prenom"><br>
+        <br>
+
+        <label for="email"> Email</label><br>
+        <input type="email" name="email" id="email"> <br>
+        <br>
+
+        <label for="message">Message</label> <br>
+        <input type="message" name="message" id="message"><br>
+        <br>
+        <input type="radio">
+        <label for="text">Recevoir nos bons par email</label> <br>
+        <br>
+        <input type="submit" name="Recevoir" value="Recevoir">
+    </main>
+
+
+
+</html>

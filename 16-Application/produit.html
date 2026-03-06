@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>produit</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Manrope:wght@200..800&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Sofia&display=swap');
+
+        .search.container input {
+            padding: 6px 12px;
+            border-radius: 4px;
+        }
+
+        .navbar {
+            justify-items: center;
+            justify-content: space-between;
+            display: flex;
+            text-decoration: none;
+            align-items: center;
+        }
+
+        .link a {
+            margin-right: 25px;
+            text-decoration: none;
+            text-align: center;
+            font-family: "sofia";
+        }
+
+        .link {
+            text-align: center;
+            margin-left: 400px;
+        }
+
+        h1 {
+            font-family: "sofia";
+            text-decoration: double;
+            text-align: center;
+            margin-top: 50px;
+        }
+
+        .name {
+            text-align: center;
+            text-decoration: dotted;
+        }
+
+        button:hover {
+            background-color: rgba(61, 59, 59, 0.555);
+        }
+
+
+
+        .card {
+            margin: auto;
+            text-align: center;
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+
+
+        }
+
+        .Produits-grid {
+            justify-content: space-between;
+            gap: 20px;
+            flex-wrap: wrap;
+
+
+        }
+
+        .image-box:hover {
+            display: block;
+            box-shadow: 4px 4px 6px;
+            background-color: rgb(230, 230, 230);
+            padding: 15px;
+            align-items: center;
+            font-size: 20px;
+        }
+
+
+        .image-box1:hover {
+            display: block;
+            box-shadow: 3px 3px 6px;
+            background-color: rgb(230, 230, 230);
+            padding: 15px;
+            align-items: center;
+        }
+
+        .image-box2:hover {
+            display: block;
+            box-shadow: 4px 4px 4px;
+            background-color: rgb(230, 230, 230);
+            padding: 15px;
+            align-items: center;
+
+        }
+
+        .image-box3:hover {
+            display: block;
+            box-shadow: 4px 4px 4px;
+            background-color: rgb(230, 230, 230);
+            padding: 15px;
+            align-items: center;
+
+        }
+
+        img {
+            border-radius: 10px;
+            border: solid 0.5px;
+            object-fit: contain;
+            width: 250px;
+            height: 250px;
+
+        }
+
+        body {
+            background-color: rgb(255, 255, 255);
+        }
+
+        a:hover {
+            color: rgb(253, 160, 73);
+
+        }
+
+        img {
+            object-fit: contain;
+            width: 250;
+            height: 200;
+            padding-top: 05px;
+        }
+
+
+        input:hover {
+            border: solid rgb(2, 111, 255);
+        }
+
+        strong {
+            font-family: "sofia";
+        }
+    </style>
+</head>
+
+<body>
+    <header class="navbar">
+        <nav class="link">
+            <a href="accueil.html">Accueil</a>
+            <a href="produit.html">Produits</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+        <div class="search.container">
+            <input type="text" placeholder="Recherche">
+            <button>Recherche</button>
+        </div>
+
+
+    </header>
+    <h1>
+        liste des Produits
+    </h1>
+    <br>
+    <main>
+        <div class="Produits-grid">
+            <div class="card">
+
+                <div class="image-box2">
+                    <img src="./picture/OIP.webp" alt="ananas">
+                    <p><strong>Ananas</strong></p>
+                </div>
+
+                <div class="card">
+                    <div class="image-box2">
+                        <img src="./picture/dudu.webp" alt="fruits de la passion">
+                        <p> <strong> fruits de la passion </strong></p>
+                    </div>
+
+                </div>
+
+                <div class="card">
+                    <div class="image-box2">
+                        <img src="./picture/télécharger.webp" alt="Kaki">
+                        <p> <strong>Kaki</strong></p>
+                    </div>
+
+                </div>
+
+
+                <div class="card">
+                    <div class="image-box2">
+                        <img src="./picture/OIP.jpg" alt="Fraise">
+                        <p><strong>Fraise</strong></p>
+                    </div>
+
+                </div>
+
+                <div class="card">
+                    <div class="image-box2">
+                        <img src="./picture/ass malick.webp" alt="kiwi">
+                        <p><strong>kiwi</strong></p>
+                    </div>
+
+                </div>
+
+
+
+
+
+            </div>
+        </div>
+        </div>
+    </main>
+</body>
+
+</html>
